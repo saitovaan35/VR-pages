@@ -1,0 +1,46 @@
+.nav {
+display: flex;
+
+    &__title {
+        font-family: ;
+        color: #000000;
+        font-weight: bolder;
+    }
+
+
+    &__basket {
+    }
+}
+.logo {
+}
+.wrap {
+}
+.main {
+
+    /* .main__title */
+
+    &__title {
+    }
+
+    /* .main__passage */
+
+    &__passage {
+    }
+
+    /* .main__buy */
+
+    &__buy {
+    }
+}
+.footer {
+
+    /* .footer__main */
+
+    &__main {
+    }
+
+    /* .footer__item */
+
+    &__item {
+    }
+}
