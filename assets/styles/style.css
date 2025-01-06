@@ -1,9 +1,11 @@
 
 .nav {
 display: flex;
+justify-content: space-between;
     /* .nav__logo */
 
     &__logo {
+        display: flex;
     }
 
     /* .nav__title */
@@ -13,12 +15,17 @@ display: flex;
         font-weight: bolder;
     }
 
-    /* .nav__basket */
+		/* .nav__button */
 
-    &__basket {
-        background-color: #5222D0;
-        color: #FFFFFF;
-    }
+	&__button {
+        background-color: blueviolet;
+	}
+
+		/* .nav__basket */
+
+	&__basket {
+        background-color: blueviolet;
+	}
 }
 
 .wrap {
@@ -37,16 +44,12 @@ display: flex;
         font-style: normal;
     }
 
-
-    /* .wrap__buy */
-
     &__buy {
+        background-color: purple;
     }
 }
 .footer {
-
-    /* .footer__item */
-
     &__item {
+        display: flex;
     }
 }
