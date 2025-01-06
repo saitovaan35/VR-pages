@@ -2,54 +2,44 @@
 .nav {
 display: flex;
 justify-content: space-between;
-    /* .nav__logo */
-
-    &__logo {
+    .nav__logo{
         display: flex;
     }
-
-    /* .nav__title */
-
-    &__title {
+}
+    .nav__title{
         color: rgba(0, 0, 0, 1);
         font-weight: bolder;
     }
 
-		/* .nav__button */
+.nav__button{
+        }
 
-	&__button {
-        background-color: blueviolet;
-	}
+.nav__button{
+        background-color: #5222D0;
 
-		/* .nav__basket */
-
-	&__basket {
-        background-color: blueviolet;
-	}
 }
-
 .wrap {
+}
+    .wrap__title{}
 
-    /* .wrap__title */
 
-    &__title {
-    }
-
-    /* .wrap__passage */
-
-    &__passage {
+    .wrap__passage{       
         font-family: "Roboto Slab", serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
     }
 
-    &__buy {
-        background-color: purple;
+
+    .wrap__buy {
+        background-color: #5222D0;
     }
-}
 .footer {
-    &__item {
-        display: flex;
-    }
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__item{
+    text-decoration: none;
 }
