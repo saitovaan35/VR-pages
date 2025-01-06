@@ -1,51 +1,49 @@
 
 .nav {
-display: inline-flex;
-		&__logo {
-		}
-		&__title {
+display: flex;
+    /* .nav__logo */
+
+    &__logo {
+    }
+
+    /* .nav__title */
+
+    &__title {
         color: rgba(0, 0, 0, 1);
         font-weight: bolder;
-		}
-.button{
+    }
+
+    /* .nav__basket */
+
     &__basket {
         background-color: #5222D0;
         color: #FFFFFF;
     }
 }
-}
-.logo {
-}
-.wrap {
-}
-.main {
 
-    /* .main__title */
+.wrap {
+
+    /* .wrap__title */
 
     &__title {
     }
 
-    /* .main__passage */
+    /* .wrap__passage */
 
     &__passage {
-
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
     }
 
-    /* .main__buy */
+
+    /* .wrap__buy */
 
     &__buy {
     }
+}
 .footer {
-
-    /* .footer__main */
-
-    &__main {
-    }
 
     /* .footer__item */
 
