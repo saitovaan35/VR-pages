@@ -82,7 +82,10 @@ ul{
 .footer__item{
     list-style-type: none;
 }
-.container {}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
     .container__picture1{}
 
@@ -93,69 +96,51 @@ ul{
     .container__picture3{}
 
 
-    .container__text1{}
+
+		.container__text1
+
+
+		.container__text2
 
 
 
-    .container__text2{}
+		.container__text3
 
 
 
-    .container__text3{}
+		.container__text4
 
 
 
-    .container__text4{}
+		.container__text5
+ 
+      .container__information{
+
+      }
 
 
+		.container__title{
+font-family: Intro ;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 
-    .container__text5{}
+        }
 
+		.container__content{
+        font-family: Roboto Slab;
+font-size: 20px;
+font-weight: 300;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 
-.text1 {
-}
-
-    .text1__title{}
-
-
-
-    .text1__content{}
-
-
-.text2 {}
-
-    .text2__title{}
-
-
-    .text2__content{}
-
-
-
-.text3 {}
-
-    .text3__title{}
+        }
 
 
-    .text3__content{}
-
-
-.text4 {}
-
-    .text4__title{}
-
-
-
-    .text4__content{}
-
-
-
-.text5 {}
-
-    .text5__title{}
-
-
-    .text5__content{}
-
-    
 .form {
 }
