@@ -4,6 +4,11 @@ display: flex;
 justify-content: space-between;
     .nav__logo{
         display: flex;
+        width: 40px;
+height: 40px;
+gap: 0px;
+opacity: 0px;
+
     }
 }
     .nav__title{
@@ -12,28 +17,62 @@ justify-content: space-between;
     }
 
 .nav__button{
-        }
+border-radius: 50px;
+width: 115px;
+height: 38px;
+gap: 0px;
+opacity: 0px;
+}
 
 .nav__button{
         background-color: #5222D0;
-
+        color: #FFFFFF;
 }
 .wrap {
 }
-    .wrap__title{}
+    .wrap__title{
+font-family: Intro ;
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
 
 
     .wrap__passage{       
-        font-family: "Roboto Slab", serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+font-size: 20px;
+font-weight: 300;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
     }
 
 
     .wrap__buy {
         background-color: #5222D0;
-    }
+        border-radius: 50px;
+        width: 270px;
+        height: 84px;
+        top: 558px;
+        left: 116px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Intro ;
+font-size: 35px;
+font-weight: 400;
+line-height: 35px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
 .footer {
 }
 ul{
@@ -41,5 +80,82 @@ ul{
     justify-content: space-evenly;
 }
 .footer__item{
-    text-decoration: none;
+    list-style-type: none;
+}
+.container {}
+
+    .container__picture1{}
+
+
+    .container__picture2{}
+
+
+    .container__picture3{}
+
+
+    .container__text1{}
+
+
+
+    .container__text2{}
+
+
+
+    .container__text3{}
+
+
+
+    .container__text4{}
+
+
+
+    .container__text5{}
+
+
+.text1 {
+}
+
+    .text1__title{}
+
+
+
+    .text1__content{}
+
+
+.text2 {}
+
+    .text2__title{}
+
+
+    .text2__content{}
+
+
+
+.text3 {}
+
+    .text3__title{}
+
+
+    .text3__content{}
+
+
+.text4 {}
+
+    .text4__title{}
+
+
+
+    .text4__content{}
+
+
+
+.text5 {}
+
+    .text5__title{}
+
+
+    .text5__content{}
+
+    
+.form {
 }
