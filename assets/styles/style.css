@@ -7,10 +7,21 @@ justify-content: space-between;
         width: 40px;
 height: 40px;
 gap: 0px;
-opacity: 0px;
-
-    }
+opacity: 0px;}
 }
+
+    .nav__item{
+        list-style-type: none;
+    }
+
+
+    .nav__menu{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: "Roboto Slab", serif;
+    }
+
+
     .nav__title{
         color: rgba(0, 0, 0, 1);
         font-weight: bolder;
@@ -21,7 +32,7 @@ border-radius: 50px;
 width: 115px;
 height: 38px;
 gap: 0px;
-opacity: 0px;
+opacity: 0.2px;
 }
 
 .nav__button{
@@ -43,8 +54,8 @@ text-decoration-skip-ink: none;
 
 
     .wrap__passage{       
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
+font-family: "Roboto Slab", serif;
+font-optical-sizing: auto;
 font-size: 20px;
 font-weight: 300;
 line-height: 32px;
@@ -79,6 +90,11 @@ ul{
     display: flex;
     justify-content: space-evenly;
 }
+.nav__list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
 .footer__item{
     list-style-type: none;
 }
@@ -86,7 +102,20 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.container__information__data{
+    background-color: #FFFFFF;
+}
+.container__information__button{
+    width: 135px;
+height: 38px;
+top: 994px;
+left: 1021px;
+gap: 0px;
+border-radius: 50px;
+opacity: 0px;
+background-color: #5222D0;
 
+}
     .container__picture1{}
 
 
@@ -95,7 +124,10 @@ ul{
 
     .container__picture3{}
 
-
+    .container__information{
+        background-color: #EC615B;
+        display: inline-block;
+                }
 
 		.container__text1
 
@@ -113,11 +145,8 @@ ul{
 
 
 		.container__text5
+
  
-      .container__information{
-
-      }
-
 
 		.container__title{
 font-family: Intro ;
@@ -127,8 +156,19 @@ line-height: 36px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
-        }
+}
+.container__title_white{
+    display: flex;
+    align-items: center;
+    font-family: Intro ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    }
 
 		.container__content{
         font-family: Roboto Slab;
@@ -138,8 +178,7 @@ line-height: 32px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
-        }
+}
 
 
 .form {
